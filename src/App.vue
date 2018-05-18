@@ -11,22 +11,18 @@ import Canvas from './components/Canvas';
 import Controller from './components/Controller';
 
 const images = [
-  './static/pant_low/1.png',
-  './static/pant_low/2.png',
-  './static/pant_low/3.png',
-  './static/pant_low/4.png',
-  './static/pant_main/1.png',
-  './static/pant_main/2.png',
-  './static/pant_main/3.png',
-  './static/pant_main/4.png',
-  './static/shirt_main/1.png',
-  './static/shirt_main/2.png',
-  './static/shirt_main/3.png',
-  './static/shirt_main/4.png',
-  './static/shirt_number/1.png',
-  './static/shirt_number/2.png',
-  './static/shirt_number/3.png',
-  './static/shirt_number/4.png',
+  './static/body/body_1_1.png',
+  './static/body/body_1_2.png',
+  './static/body/body_1_3.png',
+  './static/body/body_1_4.png',
+  './static/top/top_1_1.png',
+  './static/top/top_1_2.png',
+  './static/top/top_1_3.png',
+  './static/top/top_1_4.png',
+  './static/number/NUM_1_1.png',
+  './static/number/NUM_1_2.png',
+  './static/number/NUM_1_3.png',
+  './static/number/NUM_1_4.png',
 ];
 
 export default {
@@ -65,6 +61,8 @@ export default {
 </script>
 
 <style lang="scss">
+@import './styles/reset.css';
+
 #app {
   font-family: 'Avenir', Helvetica, Arial, sans-serif;
   -webkit-font-smoothing: antialiased;
